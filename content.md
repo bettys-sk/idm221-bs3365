@@ -113,11 +113,11 @@ The heartbeats merge in rhythmic flow, A symphony of souls, in ebb and glow.
 
 Mysteries wrapped in veils of time, Sonder’s embrace, a silent chime. 
 
-Through crowded streets and empty spaces, Sonder blooms in unseen embraces.
+Through crowded streets and empty spaces,Sonder blooms in unseen embraces.
 
 A tapestry woven, threads entwined, In the mosaic of life, secrets find. 
 
-For every gaze, a universe untold, Sonder’s magic, a truth behold. In quiet moments, hearts entwine, A dance of souls, in fleeting time.
+For every gaze, a universe untold, Sonder’s magic, a truth behold.In quiet moments, hearts entwine, A dance of souls, in fleeting time.
 
 #### The Whatever
 Finding my own sense of fashion has been a long journey. After trying countless styles and chasing trends, I eventually grew tired of it all. Starting in my senior year of high school, I committed to wearing only black or white outfits. While I’m still not sure what led me to this decision, it has since become a core part of my identity. Although fashion shouldn't define a person entirely, I take pride in being recognized through my outfits. This project showcases the different silhouettes and styles I’ve embraced, reflecting my dedication to my personal sense of fashion.
