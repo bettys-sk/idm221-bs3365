@@ -1,0 +1,82 @@
+@font-face {
+    font-family: PP Editorial New;
+    src: url(../typography/PPEditorialNew-Ultralight.woff2);
+    font-weight: 200;
+    font-style: light;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url(../typography/RobotoMono-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html{
+    --background-color-light: #F9F9F9;
+    --box-color-light: #FFFFFF;
+    --stroke-color-light: #E5E7EA;
+    --primary-color-light: #222222;
+    --secondary-color-light: #838387;
+    --highlight-color-light: #2DABFF;
+
+    --background-color-dark: #222222;
+    --box-color-dark: #333333;
+    --stroke-color-dark: #484747;
+    --primary-color-dark: #EDEDED;
+    --secondary-color-dark: #BBBBBB;
+    --highlight-color-dark: #BBBBBB;
+}
+
+h1{
+    font-family: PP Editorial New, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 41px;
+    color: #222222;
+}
+
+h2{
+    font-family: PP Editorial New, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    line-height: 31px;
+    color: #222222;
+}
+
+h3{
+    font-family: PP Editorial New, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 1.25rem;
+    color: #222222;
+}
+
+p1{
+    font-family: Roboto Mono, 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #838387;
+}
+
+p2{
+    font-family: Roboto Mono, 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: .875rem;
+    line-height: 20px;
+    color: #838387;
+}
+
+p3{
+    font-family: Roboto Mono, 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: .8125rem;
+    line-height: 20px;
+    color: #222222;
+}
+
+hr{
+    border-top: 1px solid #E5E7EA;
+}
