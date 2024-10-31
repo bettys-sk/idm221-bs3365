@@ -30,6 +30,9 @@ html{
     --highlight-color-dark: #BBBBBB;
 }
 
+body {
+    background-color: #F9F9F9;
+}
 h1{
     font-family: PP Editorial New, 'Times New Roman', Times, serif;
     font-weight: lighter;
@@ -53,7 +56,7 @@ h3{
     color: #222222;
 }
 
-p1{
+h4{
     font-family: Roboto Mono, 'Courier New', Courier, monospace;
     font-weight: normal;
     font-size: 1rem;
@@ -61,15 +64,15 @@ p1{
     color: #838387;
 }
 
-p2{
+h5{
     font-family: Roboto Mono, 'Courier New', Courier, monospace;
     font-weight: normal;
     font-size: .875rem;
     line-height: 20px;
-    color: #838387;
+    color: #222222;
 }
 
-p3{
+p{
     font-family: Roboto Mono, 'Courier New', Courier, monospace;
     font-weight: normal;
     font-size: .8125rem;
@@ -79,4 +82,35 @@ p3{
 
 hr{
     border-top: 1px solid #E5E7EA;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+nav ul li{
+    font-family: PP Editorial New, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+a{
+    color: #222222;
+    text-decoration: none
+}
+
+.logo{
+    width: 43px;
+    height: 46px;
 }
