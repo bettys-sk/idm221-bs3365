@@ -1,6 +1,6 @@
 @font-face {
     font-family: PP Editorial New;
-    src: url(../typography/PPEditorialNew-Ultralight.woff2);
+    src: url(../typography/PPEditorialNew-Ultralight.woff2) format('woff2');
     font-weight: 200;
     font-style: light;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: Roboto Mono;
-    src: url(../typography/RobotoMono-Regular.woff2);
+    src: url(../typography/RobotoMono-Regular.woff2) format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -30,15 +30,20 @@ html{
     --highlight-color-dark: #BBBBBB;
 }
 
+* {
+    box-sizing: border-box;
+   }
+
 body {
-    background-color: #F9F9F9;
+    background-color: var(--background-color-light);
 }
+
 h1{
     font-family: PP Editorial New, 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 2rem;
     line-height: 41px;
-    color: #222222;
+    color: var(--primary-color-light);
 }
 
 h2{
@@ -46,14 +51,16 @@ h2{
     font-weight: lighter;
     font-size: 1.5rem;
     line-height: 31px;
-    color: #222222;
+    color: var(--primary-color-light);
+    /* add margin: phil usually puts margin at the top */
+    /* add padding (like left and right) */
 }
 
 h3{
     font-family: PP Editorial New, 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 1.25rem;
-    color: #222222;
+    color: var(--primary-color-light);
 }
 
 h4{
@@ -61,7 +68,7 @@ h4{
     font-weight: normal;
     font-size: 1rem;
     line-height: 20px;
-    color: #838387;
+    color: var(--secondary-color-light);
 }
 
 h5{
@@ -69,7 +76,7 @@ h5{
     font-weight: normal;
     font-size: .875rem;
     line-height: 20px;
-    color: #222222;
+    color: var(--primary-color-light);
 }
 
 p{
@@ -77,11 +84,11 @@ p{
     font-weight: normal;
     font-size: .8125rem;
     line-height: 20px;
-    color: #222222;
+    color: var(--primary-color-light);
 }
 
 hr{
-    border-top: 1px solid #E5E7EA;
+    border-top: 1px solid var(--stroke-color-light);
 }
 
 nav {
@@ -105,12 +112,17 @@ nav ul li{
     display: block;
 }
 
-a{
-    color: #222222;
+nav a, a.nav {
+    color: var(--primary-color-light);
     text-decoration: none
 }
 
 .logo{
     width: 43px;
     height: 46px;
+}
+
+img.img {
+    height: auto;
+    width: 341px;
 }
