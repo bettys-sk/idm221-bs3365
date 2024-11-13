@@ -36,6 +36,7 @@ html{
 
 body {
     background-color: var(--background-color-light);
+    margin-inline: 26px;
 }
 
 h1{
@@ -44,6 +45,7 @@ h1{
     font-size: 2rem;
     line-height: 41px;
     color: var(--primary-color-light);
+    margin-block: 24px;
 }
 
 h2{
@@ -52,8 +54,6 @@ h2{
     font-size: 1.5rem;
     line-height: 31px;
     color: var(--primary-color-light);
-    /* add margin: phil usually puts margin at the top */
-    /* add padding (like left and right) */
 }
 
 h3{
@@ -61,6 +61,7 @@ h3{
     font-weight: lighter;
     font-size: 1.25rem;
     color: var(--primary-color-light);
+    margin: 15px 0px 12px 0px;
 }
 
 h4{
@@ -69,6 +70,7 @@ h4{
     font-size: 1rem;
     line-height: 20px;
     color: var(--secondary-color-light);
+    margin-block: 16px;
 }
 
 h5{
@@ -81,7 +83,7 @@ h5{
 
 p{
     font-family: Roboto Mono, 'Courier New', Courier, monospace;
-    font-weight: normal;
+    font-weight: 400;
     font-size: .8125rem;
     line-height: 20px;
     color: var(--primary-color-light);
@@ -91,15 +93,23 @@ hr{
     border-top: 1px solid var(--stroke-color-light);
 }
 
+.space {
+    margin-bottom: 24px;
+}
+
+a {
+    color: var(--highlight-color-light);
+}
+
 nav {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 nav ul {
     list-style-type: none;
-    padding-left: 0;
-    margin: 0;
+    padding-left: 0px;
+    margin: 0px;
 }
 
 nav ul li{
@@ -107,8 +117,8 @@ nav ul li{
     font-weight: lighter;
     font-size: 2rem;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     display: block;
 }
 
@@ -125,4 +135,52 @@ nav a, a.nav {
 img.img {
     height: auto;
     width: 341px;
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.s-img {
+    height: auto;
+    width: 341px;
+    border: 1px solid var(--stroke-color-light);
+    border-radius: 8px;
+    margin-block: 12px;
+    display: flex;
+    overflow: hidden;
+}
+
+.card {
+    border: 1px solid var(--stroke-color-light);
+    border-radius: 8px;
+    width: 343.2px; 
+    margin-bottom: 12px;
+}
+
+.container {
+    color: var(--box-color-light);
+    border-top: 1px solid var(--stroke-color-light);
+    width: 341px;
+    padding-left: 20px;
+}
+
+.card .container a {
+    color: var(--primary-color-light);
+    text-decoration: none;
+}
+
+.detail-paragraph {
+    margin-block: 16px;
+}
+
+.poem {
+    color: var(--box-color-light);
+    border: 1px solid var(--stroke-color-light);
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 24px;
+}
+
+iframe {
+    margin-bottom: 24px;
 }
