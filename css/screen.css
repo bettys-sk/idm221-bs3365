@@ -42,7 +42,7 @@ body {
 h1{
     font-family: PP Editorial New, 'Times New Roman', Times, serif;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 41px;
     color: var(--primary-color-light);
     margin-block: 24px;
@@ -54,7 +54,7 @@ h2{
     font-size: 1.6rem;
     line-height: 31px;
     color: var(--primary-color-light);
-    margin: 24px 0px 8px 0px;
+    margin: 24px 0px 0px 0px;
 }
 
 h3{
@@ -88,7 +88,17 @@ p{
     font-size: .8125rem;
     line-height: 20px;
     color: var(--primary-color-light);
+    margin-top: 6px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0 10px 0;
+}
+
+
 
 hr{
     border-top: 1px solid var(--stroke-color-light);
@@ -100,6 +110,7 @@ hr{
 
 a {
     color: var(--highlight-color-light);
+    
 }
 
 .carda {
@@ -189,4 +200,13 @@ img.img {
 
 iframe {
     margin-bottom: 24px;
+}
+
+.about-section h3 {
+    margin: 16px 0px 6px 0px;
+}
+
+.about-section p:last-child {
+    margin-top: 0;
+    margin-bottom: 32px;
 }
