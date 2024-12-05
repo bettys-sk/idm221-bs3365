@@ -179,7 +179,7 @@ img.img {
 .card {
     border: 1px solid var(--stroke-color-light);
     border-radius: 8px;
-    width: 343.2px; 
+    width: 100%; 
     margin-bottom: 12px;
 }
 
