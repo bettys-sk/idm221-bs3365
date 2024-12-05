@@ -2,7 +2,7 @@
     font-family: PP Editorial New;
     src: url(../typography/PPEditorialNew-Ultralight.woff2) format('woff2');
     font-weight: 200;
-    font-style: light;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -53,7 +53,7 @@ h1{
 
 h2{
     font-family: PP Editorial New, 'Times New Roman', Times, serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 1.6rem;
     line-height: 31px;
     color: var(--primary-color-light);
@@ -62,7 +62,7 @@ h2{
 
 h3{
     font-family: PP Editorial New, 'Times New Roman', Times, serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 1.25rem;
     color: var(--primary-color-light);
     margin: 15px 0px 12px 0px;
@@ -120,15 +120,15 @@ a {
 }
 
 nav {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     margin-top: 80vh;
 }
 
 nav ul {
     list-style-type: none;
-    padding-left: 0px;
-    margin: 0px;
+    padding-left: 0;
+    margin: 0;
 }
 
 nav ul li{
@@ -136,9 +136,9 @@ nav ul li{
     font-weight: lighter;
     font-size: 2rem;
     padding: 12px;
-    list-style-type: none;
     margin: 0px;
     display: block;
+    border-bottom: 2px solid var(--stroke-color-light);
 }
 
 nav a, a.nav {
