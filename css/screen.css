@@ -160,7 +160,7 @@ nav a, a.nav {
 
 img.img {
     height: auto;
-    width: 341px;
+    width: 100%;
     border-radius: 7px 7px 0px 0px;
     display: flex;
     overflow: hidden;
@@ -168,7 +168,7 @@ img.img {
 
 .s-img {
     height: auto;
-    width: 341px;
+    width: 100%;
     border: 1px solid var(--stroke-color-light);
     border-radius: 8px;
     margin-block: 12px;
