@@ -15,6 +15,7 @@
 }
 
 html{
+    /* design system colors for the website. in both light and dark */
     --background-color-light: #F9F9F9;
     --box-color-light: #FFFFFF;
     --stroke-color-light: #E5E7EA;
@@ -95,6 +96,8 @@ p{
 }
 
 .header {
+    /* this css styling ensures that my header is aligned properly. 
+    such as, logo on the left and menu on the right side of the page */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,6 +109,7 @@ hr{
 }
 
 .space {
+    /* ensures proper margin for a specific hr element */
     margin-bottom: 24px;
 }
 
@@ -115,6 +119,7 @@ a {
 }
 
 .carda {
+    /* .carda allows no text decoration on the titles of projects in cards  */
     color: var(--primary-color-light);
     text-decoration: none;
 }
@@ -123,15 +128,19 @@ nav {
     padding: 0;
     margin: 0;
     margin-top: 80vh;
+    /* 80vh is used to allow enough spacing between website content and nav. 
+    allowing users to see menu without other web content */
 }
 
 nav ul {
+    /* this css gets rid of pre styling done by ul */
     list-style-type: none;
     padding-left: 0;
     margin: 0;
 }
 
 nav ul li{
+    /* specfic styling used for the menu ul li */
     font-family: PP Editorial New, 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 2rem;
@@ -152,6 +161,8 @@ nav a, a.nav {
 }
 
 .project-details-header {
+    /* allows proper alignment for header.
+    back nav on the left and project title on the right */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -200,6 +211,8 @@ img.img {
 }
 
 .poem {
+    /* used only in page titled sonder.html
+    allows the poem to look different than rest of cards */
     color: var(--box-color-light);
     border: 1px solid var(--stroke-color-light);
     border-radius: 8px;
@@ -207,15 +220,15 @@ img.img {
     margin-bottom: 24px;
 }
 
-iframe {
-    margin-bottom: 24px;
-}
-
 .about-section h3 {
+    /* used to create proper spacing between 
+    contents around h3 in the about page */
     margin: 16px 0px 6px 0px;
 }
 
 .about-section p:last-child {
+    /* used to create proper spacing below 
+    every paragraphs in the about page */
     margin-top: 0;
     margin-bottom: 32px;
 }
